@@ -1,0 +1,96 @@
+.wrapper {
+    margin-top: 28px;
+    padding: 0px 28px;
+}
+
+.dealer-headline {
+    display: flex;
+    align-items: center;
+    gap: 71px;
+    margin-bottom: 35px;
+}
+
+.dealer-headline h2 {
+    color: var(--black, #222950);
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.714%;
+    /* 24.069px */
+    letter-spacing: 0.54px;
+}
+
+.dealer-card {
+    border-radius: 10px;
+    border: 1px solid rgba(46, 49, 133, 0.08);
+    box-shadow: 0px 10px 20px 0px rgba(5, 46, 128, 0.05);
+    margin-bottom: 20px;
+
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0 16px 16px;
+    border-bottom: 1px solid rgba(46, 49, 133, 0.08);
+}
+
+.title img {
+    height: 38px;
+}
+
+.title h2 {
+    color: var(--black, #222950);
+
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Baloo Da 2;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    text-transform: capitalize;
+}
+
+
+.total {
+    display: flex;
+    border-radius: 0px 0px 10px 10px;
+
+    background: #FFF;
+}
+
+.text:first-child {
+    border-right: 1px solid rgba(46, 49, 133, 0.08);
+
+}
+
+.text {
+    padding: 13px 46px 14px 40px;
+}
+
+.text p {
+    color: var(--gray, #8A94A6);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text p span {
+    color: var(--black-2, #595F84);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 8px;
+}

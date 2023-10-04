@@ -1,0 +1,234 @@
+.wrapper {
+    padding: 27px 27px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    margin-bottom: 53px;
+}
+
+.navbar p {
+    color: var(--black, #222950);
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.714%;
+    /* 21.394px */
+    letter-spacing: 0.48px;
+    margin: 0;
+}
+
+.navbar p span {
+    padding: 20px 28px;
+    height: 20px;
+    padding: 8px;
+    gap: 10px;
+    border-radius: 50px;
+    background: #FCA139;
+    color: var(--additional-white, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 19.2px */
+}
+
+.selection-wrapper {
+    position: relative;
+}
+
+.selection {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    width: 265px;
+    border-radius: 10px;
+    border: 1px solid #E5E7F0;
+    background: #FFF;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection p {
+    color: #8A94A6;
+    font-family: Baloo Da 2;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 157.143% */
+    margin: 0;
+}
+
+.power {
+    margin: 30px;
+}
+
+.power p {
+    color: var(--black, #222950);
+    text-align: center;
+    font-family: Baloo Da 2;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+.pending-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(5, 46, 128, 0.05);
+    padding: 15px;
+    margin-bottom: 18px;
+}
+
+.profile-name {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-name p {
+    color: var(--black, #222950);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Baloo Da 2;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.pending {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pending button {
+    display: flex;
+    height: 20px;
+    padding: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 122, 255, 0.08);
+    color: #007AFF;
+    background-color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 19.2px */
+}
+
+.pending-profile-wrapper {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(5, 46, 128, 0.05);
+    padding-bottom: 15px;
+    margin-bottom: 24px;
+}
+
+.pending-profile-wrapper .pending-profile {
+    border: none;
+    box-shadow: none;
+}
+
+.view-btn {
+    display: flex;
+    width: 100px;
+    height: 35px;
+    padding: 7px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: rgba(0, 122, 255, 0.06);
+    color: #007AFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Baloo Da 2;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 183.333% */
+}
+
+.paid-btn {
+    display: flex;
+    width: 100px;
+    height: 35px;
+    padding: 7px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: rgba(5, 187, 66, 0.06);
+    color: #05BB42;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Baloo Da 2;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 183.333% */
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 0 15px;
+    margin-bottom: 24px;
+}
+
+.cancel-btn button {
+    display: flex;
+    width: 272px;
+    height: 35px;
+    padding: 7px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: rgba(89, 95, 132, 0.05);
+    color: var(--black-2, #595F84);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Baloo Da 2;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    border: none;
+    margin: auto;
+
+    /* 183.333% */
+}

@@ -1,0 +1,149 @@
+.wrapper {
+    margin-top: 28px;
+    padding: 0px 28px;
+}
+
+.dealer-headline {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    margin-bottom: 35px;
+}
+
+.dealer-headline h2 {
+    color: var(--black, #222950);
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Anek Bangla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.714%;
+    /* 21.394px */
+    letter-spacing: 0.48px;
+}
+
+.selection {
+    border-radius: 10px;
+    border: 1px solid #E5E7F0;
+    background: #FFF;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 19px;
+}
+
+.selection p {
+    color: #8A94A6;
+    font-family: Baloo Da 2;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 157.143% */
+    margin: 0;
+}
+
+.Product-card {
+    border-radius: 10px;
+    border: 1px solid rgba(46, 49, 133, 0.08);
+    background: #FFF;
+    margin-bottom: 20px;
+}
+
+.product-detail {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 23px 17px;
+}
+
+.product-title h2 {
+    color: var(--black, #222950);
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    text-transform: capitalize;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.count span:first-of-type {
+    margin-right: 12px;
+}
+
+.count p {
+    color: var(--black-2, #595F84);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.count span {
+    color: var(--black-2, #595F84);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0 3px;
+    border-radius: 2px;
+    border: 0.2px solid rgba(138, 148, 166, 0.29);
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 72, 151, 0.05);
+}
+
+.count h3 {
+    color: var(--gray, #8A94A6);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 12px 0 37px;
+}
+
+.edit-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px 0;
+    border-top: 1px solid rgba(46, 49, 133, 0.08);
+}
+
+.edit {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+}
+
+.edit p {
+    color: var(--black-2, #595F84);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+
+}
